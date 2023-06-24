@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="part1">
+       <h1>PASSANGER CALCULATOR</h1>
+       <h2 id="counter">0</h2>
+        <h3>Click To count</h3>
+        <div class="cta">
+        <button class="increase" id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button class="decrease" id="decrement-btn" onclick="decrement()" >DECREMENT</button>
+     </div>
+     <button class="save" id="save-btn" onclick="save()">SAVE</button>
+     <p id="enteries">Previous Enteries:</p>
+     </div>
+     <div class="section2">
+     <div class="part2">
+      <div class="calculator">
+        <h1>BASIC CALCULATOR</h1>
+        <div class="digits">
+        <span class="d1" id="d1">6</span>
+        <span class="d2" id="d2">7</span>
+        </div>
+        <div class="calcta">
+        <button class="add" id="add-btn" onclick="add()">ADD</button>
+        <button class="subtract" id="subtract-btn" onclick="subtract()">SUBTRACT</button>
+        <button class="multiply" id="multiply-btn" onclick="multiply()">MULTIPLY</button>
+        <button class="divide" id="divide-btn" onclick="divide()">DIVIDE</button>
+        </div>
+        <div class="resultab">
+        <div class="result" id="result-btn">Result :  </div>
+        <div class="rpanel"></div>
+        </div>
+        <button class="refresh" onclick="refresh()">REFRESH</button>
+      </div>
+      <div class="blackjack">
+         <h1 class="head">Blackjack</h1>
+         <div class="intro">
+            <button class="play" id ="playbtn" onclick="playnow()">PLAY</button>
+            <div class="instruct">
+               <h3 class="instructhead">INSTRUCTIONS</h3>
+               <li>You will get two random cards</li>
+               <li>if their sum is less than 22 you can play again</li>
+               <li>if their sum is greater than 22 you lost</li>
+               <li>if their sum is 22 you won</li>
+            </div>
+         </div>
+         <div class="message" id="message">Want to play a round?</div>
+         <div class="cards" id="cards">Cards : </div>
+         <div class="sum" id="gameSum">Sum : </div>
+         <button class="start" id="startgame" onclick="start()">START</button>
+         <button class="new" id="reset" onclick="Reset()">RESET </button>
+         <button class="restart" onclick="restart()">HOME</button>
+        </div>
+        </div>
+     </div>
+
+      
+</body>
+<script src="ex1.js"></script>  
+</html>
